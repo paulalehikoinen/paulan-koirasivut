@@ -1,0 +1,73 @@
+div {
+    display: block;
+    padding: 1em;
+    border: 10px;
+}
+.center {
+	text-align: center;
+}
+.row {
+	margin-bottom: 100px;
+	font-style: italic;
+	background-image: url('Taustakuvat/Tausta4.jpg');
+}
+body {
+	background-image: url('Taustakuvat/Tausta.jpg');
+	padding: 2em;
+}
+textarea {
+	width: 300px;
+	height: 50px;	
+}
+h1 {
+	text-align: center;
+	text-shadow: 2px 2px #9e8e8e;
+}
+  .row:after {
+	display: table;
+	clear: both;
+}
+@media screen and (min-width: 600px) {
+  .column {
+	float: left;
+	width: 32%;
+	padding: 10px;
+	height: 300px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: larger;
+	color: rgb(81, 80, 80);
+	min-height: 300px;
+}
+}
+li {
+	display: inline;
+}
+li a {
+	padding: 20px;
+	color: black;
+}
+li a:hover {
+	color: rgb(129, 128, 128);
+	transition: 1s;
+}
+a:link {
+	text-decoration: none;
+}
+fieldset {
+	border: none;
+	margin-left: 150px;
+}
+label {
+	font-size: medium;
+}
+form {
+	padding: 10px;
+}
+footer {
+	font-weight: bold;
+	text-align: center;
+}
+main {
+	min-height: 90vh;
+}

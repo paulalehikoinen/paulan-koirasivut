@@ -1,0 +1,79 @@
+div {
+	padding: 1em;
+}
+.logo {
+	float: left;
+}
+.border {
+	border: none;
+	padding-bottom: 5px;
+}
+.center {
+	text-align: center;
+}
+header{
+	margin-bottom: 10px;
+}
+.row {
+	font-style: italic;
+	display: block;
+	background-color: rgb(248, 245, 245);
+}
+.center .placeholder-img {
+	margin: 0 auto 20px auto;
+}
+.left {
+	float: left;
+	padding-right: 1em;
+}
+.right {
+	float: right;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.placeholder-img.right {
+	margin-right: 0;
+	padding-right: 2em;
+}
+.placeholder-img.left {
+	margin-left: 0;
+	padding-left: 2em;
+}
+.full-width {
+	width: 100%;
+}
+section {
+	clear: both;
+}
+body {
+	background-image: url('Taustakuvat/Tausta.jpg');
+}
+footer {
+	font-weight: bold;
+	text-align: center;
+}
+.container {
+	margin-bottom: 1px;
+}
+.center {
+	text-shadow: 2px 2px #9e8e8e;
+	font-style: italic;
+}
+@media screen and (min-width: 600px) {
+.column {
+	width: 33.33%;
+	padding: 5px;
+	float: left;
+}
+}
+li a {
+	padding: 20px;
+	color: black;
+}
+li a:hover {
+	color: rgb(129, 128, 128);
+	transition: 1s;
+}
+a:link {
+	text-decoration: none;
+}
